@@ -2,15 +2,14 @@ import argparse
 from configs.default_img import get_img_config
 
 root_dir = '/root/datasets'
-# dataset = 'VCC_my'
 # dataset = 'LTCC_ReID_my'
 # dataset = 'DeepChangeDataset_my'
-dataset = 'prcc_my'
+# dataset = 'prcc_my'
 output_dir = './output'
 is_amp = True
 is_eval = False
 gpu = '0'
-def parse_option():
+def parse_option(dataset):
     parser = argparse.ArgumentParser(
         description='Train clothes-changing re-id model with clothes-based adversarial loss')
     # Datasets

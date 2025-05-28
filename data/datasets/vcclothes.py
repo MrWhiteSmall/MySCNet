@@ -108,6 +108,9 @@ class VCClothes(object):
             pid2clothes[pid, clothes_id] = 1
         
         num_imgs = len(dataset)
+        
+        self.clothes2label_train = clothes2label
+        self.pid2label_train = pid2label
 
         return dataset, num_pids, num_imgs, num_clothes, pid2clothes
 
@@ -177,8 +180,17 @@ class VCClothes(object):
         
         num_imgs_query = len(query_dataset)
         num_imgs_gallery = len(gallery_dataset)
+        
+        self.clothes2label_test = clothes2label
+        self.pid2label_test = pid2label
 
         return query_dataset, gallery_dataset, num_pids, num_imgs_query, num_imgs_gallery, num_clothes
+
+
+
+
+
+
 
 
 def VCClothesSameClothes(root='data', **kwargs):

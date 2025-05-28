@@ -72,6 +72,58 @@ def evaluate(distmat, q_pids, g_pids, q_camids, g_camids):
     return CMC, mAP
 
 
+def evaluate_with_predidx(distmat, q_pids, g_pids, q_camids, g_camids):
+    """ Compute CMC and mAP
+
+    Args:
+        distmat (numpy ndarray): distance matrix with shape (num_query, num_gallery).
+        q_pids (numpy array): person IDs for query samples.
+        g_pids (numpy array): person IDs for gallery samples.
+        q_camids (numpy array): camera IDs for query samples.
+        g_camids (numpy array): camera IDs for gallery samples.
+    """
+    num_q, num_g = distmat.shape
+    index = np.argsort(distmat, axis=1) # from small to large
+
+    num_no_gt = 0 # num of query imgs without groundtruth
+    num_r1 = 0
+    CMC = np.zeros(len(g_pids))
+    AP = 0
+    pred_ids = []  # 新增：存储每张查询图片的 Top-1 预测 ID
+
+    for i in range(num_q):
+        # groundtruth index
+        query_index = np.argwhere(g_pids==q_pids[i]) # gallery 中与查询同 ID 的图片
+        camera_index = np.argwhere(g_camids==q_camids[i])  # gallery 中与查询同摄像头的图片
+        good_index = np.setdiff1d(query_index, camera_index, assume_unique=True)  # 同 ID 但不同摄像头的图片（有效匹配）
+        if good_index.size == 0:
+            num_no_gt += 1
+            pred_ids.append(-1)  # 无 groundtruth 时标记为 -1
+            continue
+        # remove gallery samples that have the same pid and camid with query
+        junk_index = np.intersect1d(query_index, camera_index)
+
+        ap_tmp, CMC_tmp = compute_ap_cmc(index[i], good_index, junk_index)
+        if CMC_tmp[0]==1:
+            num_r1 += 1
+        CMC = CMC + CMC_tmp
+        AP += ap_tmp
+        
+        # 新增：获取 Top-1 预测 ID
+        top1_idx = index[i][0]  # 距离最小的 gallery 样本索引
+        pred_id = g_pids[top1_idx]
+        pred_ids.append(pred_id)
+
+    if num_no_gt > 0:
+        logger = logging.getLogger('reid.evaluate')
+        logger.info("{} query samples do not have groundtruth.".format(num_no_gt))
+
+    CMC = CMC / (num_q - num_no_gt) if (num_q - num_no_gt) != 0 else CMC
+    mAP = AP / (num_q - num_no_gt) if (num_q - num_no_gt) != 0 else 0
+
+    return CMC, mAP, np.array(pred_ids)  # 返回预测 ID 数组
+
+
 def evaluate_with_clothes(distmat, q_pids, g_pids, q_camids, g_camids, q_clothids, g_clothids, mode='CC'):
     """ Compute CMC and mAP with clothes
 
