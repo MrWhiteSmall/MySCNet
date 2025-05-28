@@ -1,0 +1,1 @@
+zip -r reid.zip /root/datasets/DeepChangeDataset_my/ /root/datasets/LTCC_ReID_my/ /root/datasets/prcc_my/ /root/datasets/VCC_my/

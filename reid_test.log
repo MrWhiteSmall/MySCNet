@@ -1,0 +1,141 @@
+2025-05-28 08:46:05,573 - reid.test - INFO - This is a test log
+2025-05-28 09:07:00,201 - reid.test - INFO - Extracted features for query set, obtained torch.Size([1020, 2048]) matrix
+2025-05-28 09:07:00,202 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([8591, 2048]) matrix
+2025-05-28 09:09:56,573 - reid.test - INFO - Extracted features for query set, obtained torch.Size([1020, 2048]) matrix
+2025-05-28 09:09:56,574 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([8591, 2048]) matrix
+2025-05-28 09:09:56,958 - reid.test - INFO - Extracted features for query set, obtained torch.Size([1020, 2048]) matrix
+2025-05-28 09:09:56,958 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([8591, 2048]) matrix
+2025-05-28 09:09:56,958 - reid.test - INFO - Extracting features complete in 0m 25s
+2025-05-28 09:09:57,105 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:09:57,105 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:09:58,321 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:09:58,321 - reid.test - INFO - top1:1.6% top5:4.9% top10:7.2% top20:11.4% mAP:1.6%
+2025-05-28 09:09:58,321 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:09:58,321 - reid.test - INFO - Using 0m 1s
+2025-05-28 09:09:58,321 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:09:59,676 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:09:59,676 - reid.test - INFO - top1:2.0% top5:5.5% top10:7.0% top20:11.1% mAP:2.1%
+2025-05-28 09:09:59,676 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:09:59,677 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:10:01,034 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:10:01,035 - reid.test - INFO - top1:0.7% top5:2.2% top10:4.1% top20:7.4% mAP:1.0%
+2025-05-28 09:10:01,035 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:12:51,399 - reid.test - INFO - Extracted features for query set, obtained torch.Size([1020, 2048]) matrix
+2025-05-28 09:12:51,399 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([8591, 2048]) matrix
+2025-05-28 09:12:51,399 - reid.test - INFO - Extracting features complete in 0m 21s
+2025-05-28 09:12:51,541 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:12:51,541 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:12:52,472 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:12:52,472 - reid.test - INFO - top1:1.6% top5:4.9% top10:7.2% top20:11.4% mAP:1.6%
+2025-05-28 09:12:52,472 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:12:52,472 - reid.test - INFO - Using 0m 1s
+2025-05-28 09:12:52,472 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:12:53,435 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:12:53,435 - reid.test - INFO - top1:2.0% top5:5.5% top10:7.0% top20:11.1% mAP:2.1%
+2025-05-28 09:12:53,435 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:12:53,435 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:12:54,390 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:12:54,391 - reid.test - INFO - top1:0.7% top5:2.2% top10:4.1% top20:7.4% mAP:1.0%
+2025-05-28 09:12:54,391 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:15:17,983 - reid.test - INFO - Extracted features for query set, obtained torch.Size([493, 2048]) matrix
+2025-05-28 09:15:17,984 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([7050, 2048]) matrix
+2025-05-28 09:15:17,984 - reid.test - INFO - Extracting features complete in 0m 18s
+2025-05-28 09:15:18,049 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:15:18,049 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:15:18,531 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:15:18,532 - reid.test - INFO - top1:8.9% top5:16.6% top10:22.3% top20:30.2% mAP:2.7%
+2025-05-28 09:15:18,532 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:15:18,532 - reid.test - INFO - Using 0m 0s
+2025-05-28 09:15:18,532 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:15:18,998 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:15:18,998 - reid.test - INFO - top1:8.4% top5:15.3% top10:19.7% top20:26.1% mAP:1.8%
+2025-05-28 09:15:18,998 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:15:18,998 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:15:19,508 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:15:19,508 - reid.test - INFO - top1:4.3% top5:8.9% top10:13.8% top20:20.4% mAP:2.2%
+2025-05-28 09:15:19,508 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:17:48,975 - reid.test - INFO - Extracted features for query set, obtained torch.Size([4976, 2048]) matrix
+2025-05-28 09:17:48,975 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([17865, 2048]) matrix
+2025-05-28 09:17:48,975 - reid.test - INFO - Extracting features complete in 0m 44s
+2025-05-28 09:17:50,047 - reid.test - INFO - Distance computing in 0m 1s
+2025-05-28 09:17:50,047 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:17:59,085 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:17:59,085 - reid.test - INFO - top1:26.4% top5:42.2% top10:49.8% top20:58.1% mAP:5.1%
+2025-05-28 09:17:59,085 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:17:59,086 - reid.test - INFO - Using 0m 9s
+2025-05-28 09:17:59,086 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:18:05,615 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:18:05,615 - reid.test - INFO - top1:0.0% top5:0.0% top10:0.0% top20:0.0% mAP:0.0%
+2025-05-28 09:18:05,615 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:18:05,615 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:18:15,137 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:18:15,137 - reid.test - INFO - top1:26.4% top5:42.2% top10:49.8% top20:58.1% mAP:5.1%
+2025-05-28 09:18:15,137 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:18:52,542 - reid.test - INFO - Extracted features for query set, obtained torch.Size([3543, 2048]) matrix
+2025-05-28 09:18:52,542 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([3384, 2048]) matrix
+2025-05-28 09:18:52,542 - reid.test - INFO - Extracting features complete in 0m 18s
+2025-05-28 09:18:52,769 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:18:52,769 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:18:54,260 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:18:54,260 - reid.test - INFO - top1:24.0% top5:34.9% top10:40.4% top20:48.0% mAP:12.6%
+2025-05-28 09:18:54,260 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:18:54,260 - reid.test - INFO - Using 0m 1s
+2025-05-28 09:18:54,260 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:18:55,166 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:18:55,167 - reid.test - INFO - top1:0.0% top5:0.0% top10:0.0% top20:0.0% mAP:0.0%
+2025-05-28 09:18:55,167 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:18:55,167 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:18:56,847 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:18:56,847 - reid.test - INFO - top1:24.0% top5:34.9% top10:40.4% top20:48.0% mAP:12.6%
+2025-05-28 09:18:56,848 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:19:12,741 - reid.test - INFO - Extracted features for query set, obtained torch.Size([3543, 2048]) matrix
+2025-05-28 09:19:12,741 - reid.test - INFO - Extracted features for query set, obtained torch.Size([3543, 2048]) matrix
+2025-05-28 09:19:12,741 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([3384, 2048]) matrix
+2025-05-28 09:19:12,741 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([3384, 2048]) matrix
+2025-05-28 09:19:12,741 - reid.test - INFO - Extracting features complete in 0m 15s
+2025-05-28 09:19:12,741 - reid.test - INFO - Extracting features complete in 0m 15s
+2025-05-28 09:19:12,967 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:19:12,967 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:19:12,967 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:19:12,967 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:19:14,459 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:19:14,459 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:19:14,459 - reid.test - INFO - top1:24.5% top5:35.8% top10:41.8% top20:48.9% mAP:12.8%
+2025-05-28 09:19:14,459 - reid.test - INFO - top1:24.5% top5:35.8% top10:41.8% top20:48.9% mAP:12.8%
+2025-05-28 09:19:14,459 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:19:14,459 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:19:14,459 - reid.test - INFO - Using 0m 1s
+2025-05-28 09:19:14,459 - reid.test - INFO - Using 0m 1s
+2025-05-28 09:19:14,459 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:19:14,459 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:19:15,365 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:19:15,365 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:19:15,365 - reid.test - INFO - top1:0.0% top5:0.0% top10:0.0% top20:0.0% mAP:0.0%
+2025-05-28 09:19:15,365 - reid.test - INFO - top1:0.0% top5:0.0% top10:0.0% top20:0.0% mAP:0.0%
+2025-05-28 09:19:15,365 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:19:15,365 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:19:15,365 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:19:15,365 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:19:17,024 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:19:17,024 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:19:17,024 - reid.test - INFO - top1:24.5% top5:35.8% top10:41.8% top20:48.9% mAP:12.8%
+2025-05-28 09:19:17,024 - reid.test - INFO - top1:24.5% top5:35.8% top10:41.8% top20:48.9% mAP:12.8%
+2025-05-28 09:19:17,024 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:19:17,024 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:22:16,676 - reid.test - INFO - Extracted features for query set, obtained torch.Size([1020, 2048]) matrix
+2025-05-28 09:22:16,676 - reid.test - INFO - Extracted features for gallery set, obtained torch.Size([8591, 2048]) matrix
+2025-05-28 09:22:16,676 - reid.test - INFO - Extracting features complete in 0m 21s
+2025-05-28 09:22:16,818 - reid.test - INFO - Distance computing in 0m 0s
+2025-05-28 09:22:16,818 - reid.test - INFO - Computing CMC and mAP
+2025-05-28 09:22:17,740 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:22:17,741 - reid.test - INFO - top1:1.6% top5:4.9% top10:7.2% top20:11.4% mAP:1.6%
+2025-05-28 09:22:17,741 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:22:17,741 - reid.test - INFO - Using 0m 1s
+2025-05-28 09:22:17,741 - reid.test - INFO - Computing CMC and mAP only for the same clothes setting
+2025-05-28 09:22:18,679 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:22:18,679 - reid.test - INFO - top1:2.0% top5:5.5% top10:7.0% top20:11.1% mAP:2.1%
+2025-05-28 09:22:18,679 - reid.test - INFO - -----------------------------------------------------------
+2025-05-28 09:22:18,679 - reid.test - INFO - Computing CMC and mAP only for clothes-changing
+2025-05-28 09:22:19,629 - reid.test - INFO - Results ---------------------------------------------------
+2025-05-28 09:22:19,630 - reid.test - INFO - top1:0.7% top5:2.2% top10:4.1% top20:7.4% mAP:1.0%
+2025-05-28 09:22:19,630 - reid.test - INFO - -----------------------------------------------------------
